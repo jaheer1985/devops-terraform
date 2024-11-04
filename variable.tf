@@ -14,3 +14,16 @@ variable "storageaccount_names" {
     description = "list of storage accounts"
     
 }
+
+variable "securitygroups" {
+    type = list(string)
+    description = "list of securitygroups"
+    
+}
+
+variable "myvnets" {
+    type = list(string)
+    description = "list of vnets"
+    
+}
+
